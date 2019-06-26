@@ -28,10 +28,13 @@ describe('Game', function() {
   });
   
   it('should push cards into deck', function() {
-    const game = new Game();
-    game.start()
     const deck = new Deck(prototypeQuestions)
     expect(deck.cards.length).to.deep.eql(30);
+  });
+
+  it('should run the game', function() {
+    const game = new Game();
+    expect(game.start()).to.equal();
   });
 
 });
