@@ -146,8 +146,8 @@ describe('Round', function() {
     round.takeTurn('capybara');
     round.takeTurn('gallbladder');
     round.takeTurn('playing with bubble wrap')
-    expect(round.calculatePercentCorrect()).to.equal(Math.round(33));
-    expect(round.endRound()).to.equal('** Round over! ** You answered 33% of the questions correctly!');
+    expect(round.calculatePercentCorrect()).to.equal(Math.round(67));
+    expect(round.endRound()).to.equal('** Round over! ** You answered 67% of the questions correctly!');
   });
   
   

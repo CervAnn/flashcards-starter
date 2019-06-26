@@ -23,7 +23,7 @@ class Round {
   }
 
   calculatePercentCorrect() {
-    let accuracy = Math.round(100 / (this.turns / this.incorrectGuesses.length))
+    let accuracy = Math.round(100 - (100 / (this.turns / this.incorrectGuesses.length)))
     return accuracy
   }
 
