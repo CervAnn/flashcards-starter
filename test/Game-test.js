@@ -29,7 +29,7 @@ describe('Game', function() {
   
   it('should push cards into deck', function() {
     const deck = new Deck(prototypeQuestions)
-    expect(deck.cards.length).to.deep.eql(30);
+    expect(deck.cards.length).to.equal(30);
   });
 
   it('should run the game', function() {

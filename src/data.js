@@ -148,7 +148,68 @@ const prototypeData = [{
   "question": "What type of methods are functions that allow you to manipulate the value of a particular data type or class?",
   "answers": ["prototype method", "object", "callback function"],
   "correctAnswer": "prototype method"
-}]
+}];
+
+// [{
+//   "id": 31,
+//   "question": "Which is not a \"Game of Thrones\" royal family name?",
+//   "answers": ["Stark", "Tyrell", "Targaryen", "Baelish"],
+//   "correctAnswer": "Baelish"
+// },
+// {
+//   "id": 32,
+//   "question": "Sandor Clegane is known as",
+//   "answers": ["The Hound", "The Mountain", "The Kingslayer", "The Beast"],
+//   "correctAnswer": "The Hound"
+// },
+// {
+//   "id": 33,
+//   "question": "Bran Stark is paralyzed following a fall, who pushed him?",
+//   "answers": ["Tyrion Lannister", "Jaime Lannister", "Joffery Baratheon", "Cersei Lannister"],
+//   "correctAnswer": ""
+// },
+// {
+//   "id": 34,
+//   "question": "What is the name of Arya Stark\'s sword?",
+//   "answers": ["Oathkeeper", "Ice", "Needle", "Death"],
+//   "correctAnswer": "Needle"
+// },
+// {
+//   "id": 35,
+//   "question": "What is House Lannister\'s motto?",
+//   "answers": ["A Lannister always pays their debts", "Fire and Blood", "Hear Me Roar", "Winter is Coming"],
+//   "correctAnswer": "Hear Me Roar"
+// },
+// {
+//   "id": 36,
+//   "question": "Who gave Danenerys the dragon eggs and why?",
+//   "answers": ["Jorah Mormont was professing his love", "Magister Illyrio gave them to her as a wedding gift", "Tyrion Lannister as proof of his fidelity to her", "She found them in the desert as she followed her brother to the Dothraki"],
+//   "correctAnswer": "Magister Illyrio gave them to her as a wedding gift"
+// },
+// {
+//   "id": 37,
+//   "question": "According to Bran, \"chaos is ...\"",
+//   "answers": ["a staircase", "a ladder", "Inevitable", "a way of life"],
+//   "correctAnswer": "a ladder"
+// },
+// {
+//   "id": 38,
+//   "question": "Which of the following is not one of Daenerys' original dragons?",
+//   "answers": ["Drogon", "Rhaegal", "Viserion", "Khal"],
+//   "correctAnswer": "Khal"
+// },
+// {
+//   "id": 39,
+//   "question": "Who are Jon Snow's parents?",
+//   "answers": ["Lyanna Stark and Rhaeger Targaryen", "Lyanna Stark and King Aerys II Targaryen", "Lyanna Stark and Robert Baratheon", "Elia Martell and Rhaeger Targeryen"],
+//   "correctAnswer": "Lyanna Stark and Rhaeger Targaryen"
+// },
+// {
+//   "id": 40,
+//   "question": "Bran Stark has transformed into a seer called ...",
+//   "answers": ["The All Seeing", "The Three-Eyed Raven", "The Younger", "Hodor"],
+//   "correctAnswer": "The Three-Eyed Raven"
+// }];
 
 module.exports = {
   prototypeData 
