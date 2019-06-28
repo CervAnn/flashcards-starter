@@ -32,9 +32,4 @@ describe('Game', function() {
     expect(deck.cards.length).to.equal(30);
   });
 
-  // it('should run the game', function() {
-  //   const game = new Game();
-  //   expect(game.start()).to.equal();
-  // });
-
 });
